@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class   ScoreManager  : MonoBehaviour
+public class ScoreManager  : MonoBehaviour
 {
     public static ScoreManager instance;
     public TextMeshProUGUI scoreText;
-    public int score = 0;
+    private int score = 0;
     
     private void Awake()
     {
